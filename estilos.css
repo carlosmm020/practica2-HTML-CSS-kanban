@@ -1,0 +1,103 @@
+body{
+  background-image: url('fondoW.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.column {
+  width: 18%;
+  margin-right: 1%;
+  vertical-align: top;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.card:hover{
+  background-color: rgb(62, 62, 247);
+  color: black;
+}
+
+
+h1 {
+  width: 100%;
+  font-weight: 400;
+  font-size: 25px;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  padding: 20px;
+  background-color: rgba(44, 44, 219, 0.5);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.x {
+  position: relative;
+  margin-left: 90%;
+
+}
+
+.x i {
+  position: absolute;
+  font-size: 10px;
+  padding: 5px;
+  background-color: red;
+  color:white;
+  border-radius: 50%;
+}
+
+.card:hover .x i{
+  background-color: black;
+}
+
+i{
+  float: left;
+  margin-left: 4%;
+}
+
+.tag.front i{
+  background-color: green;
+  color: white;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.card:hover .tag.front i{
+  color: black;
+}
+
+.tag.back i{
+  background-color: red;
+  color: white;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.card:hover .tag.back i{
+  color: black;
+}
+
+.tag.device i{
+  background-color: yellow;
+  color: white;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.card:hover .tag.device i{
+  color: black;
+}
+
